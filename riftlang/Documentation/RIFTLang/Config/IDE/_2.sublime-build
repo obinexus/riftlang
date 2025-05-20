@@ -1,0 +1,11 @@
+{
+  "variants": [
+    {
+      "name": "Build to Shared V: Drive",
+      "cmd": ["gcc", "-Wall", "$file", "-o", "V:/BuildOutputs/${file_base_name}.exe", "-I", "V:/Includes"],
+      "working_dir": "$file_path"
+    }
+  ],
+  "selector": "source.c",
+  "file_regex": "^(.+?):([0-9]+):([0-9]+): (.*)$"
+}
