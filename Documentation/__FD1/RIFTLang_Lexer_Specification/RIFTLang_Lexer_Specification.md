@@ -198,6 +198,19 @@ The entanglement protocol follows a strict procedure:
 
 ## 5. Policy Framework Integration
 
+### 5.0 Nil vs Null: Memory Assurance in Token Contracts
+
+The lexer supports the RIFT philosophy of **memory protection through nil, not null**. A `nil` token state means "known but intentionally empty," as opposed to `null`, which is "unknown or unassigned."
+
+* `nil` states are policy-compliant placeholders.
+* Tokens in `nil` state must carry full type signatures and memory context.
+* No token may compile unless its nil-handling behavior is declared in the policy scope.
+
+This provides the basis for predictable and safe allocation across classic and quantum paths - avoiding compiler ambiguity while enforcing intention.
+
+We stay. We listen. We compile what has been governed.
+Gosi compiles based on `.rift` policies. These policies ensure safe threading, memory protection (`nil`, not `null`), and constraint adherence. Nothing compiles unless it meets governance rules.
+
 ### 5.1 BitLexPolicy Mechanism
 
 The `BitLexPolicy` provides validation and enforcement across the token system:
