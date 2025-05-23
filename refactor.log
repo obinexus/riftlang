@@ -1,0 +1,6 @@
+[2025-05-23 16:27:44] [INFO] Starting RIFTLang directory structure refactoring
+[2025-05-23 16:27:44] [INFO] Source: .
+[2025-05-23 16:27:44] [INFO] Destination: .
+[2025-05-23 16:27:44] [INFO] Validating environment for RIFTLang refactoring
+[2025-05-23 16:27:44] [INFO] Environment validation completed
+[2025-05-23 16:27:44] [INFO] Creating backup at: .\backup_20250523_162744
