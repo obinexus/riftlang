@@ -1,82 +1,43 @@
-# RIFTLang
+# RIFTLang Project Structure
 
-*A programming language for governance-first computation.*  
-**Code how you live** - with care, with autonomy, with clarity.
+This project follows the RIFTLang Implementation Specification v1.0 with waterfall methodology.
 
----
+## Directory Structure
 
-## ? What Is RIFT?
+### Foundation Track (FT1)
+- src/core/ - Core RIFTLang implementation
+- src/parser/ - Token parsing and AST generation  
+- src/memory/ - Memory governance and alignment
+- src/threading/ - Thread safety and concurrency
+- src/policy/ - Policy validation engine
+- src/nlink/ - NLINK integration components
 
-RIFT is not just a language - it's a governance ecosystem.
+### Aspirational Track (AS2)
+- src/advanced/ - Advanced parser capabilities
+- src/security/ - Zero-trust security implementation
+- src/platform/ - Platform extensions
 
-Born from failure - medical hardware that couldn't be trusted, developers who weren't listened to, and systems that forgot to care - RIFTLang is a new computing philosophy designed to ensure:
+### Documentation
+- docs/specification/ - Technical specifications
+- docs/api/ - API documentation
+- docs/developer/ - Developer resources
+- docs/certification/ - Certification requirements
 
-- What runs is safe  
-- What's written is intentional  
-- What's stored is yours  
+### Testing
+- 	ests/unit/ - Unit tests
+- 	ests/integration/ - Integration tests
+- 	ests/policy/ - Policy validation tests
+- 	ests/concurrency/ - Thread safety tests
 
-> **"We compile what has been governed."**
+### Governance
+- governance/thread_safety/ - Thread safety governance
+- governance/memory_contracts/ - Memory governance contracts
+- governance/zero_trust/ - Zero-trust policy framework
 
----
+## Build Instructions
 
-## ?? Core Concepts
+See build/ directory for platform-specific build configurations.
 
-- `.rift` files define policies that govern compilation.
-- Components can be written in any language, but linked through **Gossi drivers**.
-- RIFT follows **The RIFTer's Way** - a manifesto of intentional design, respectful concurrency, and thread-safe logic.
+## Security Notice
 
----
-
-## ?? Key Principles
-
-- **Interference** - Allocate bits before you compute. No ambiguity.
-- **Substitution** - Encode without mutation. Wrap meaning with intent.
-- **Entanglement** - Synchronize buffers like shared memory across dimensions.
-- **Superposition** - Mount entropy to memory. Register it for reuse.
-
-> Every file is a breath.  
-> Every token, a truth.
-
----
-
-## ?? Components
-
-- **LibRIFT** - Pattern matching and type wrapping  
-- **NLINK** - Policy-aware linker  
-- **GossiLang** - Gossip-powered polyglot binding  
-- **Rift.exe / LRift.so** - The compiler and the enforcer
-
----
-
-## ?? `Import(disk)`
-
-Not data - **meaning**.
-
-Resuming a session in RIFT restores context, not just memory.  
-It's a declarative restoration of intention.
-
-> You don't just load a file - you restore a breath you left behind.
-
----
-
-## ?? Documentation
-
-- *The RIFTer's Way Manifesto*  
-- *Base Shift Allocator Spec*  
-- *Quantum Interference System*
-
----
-
-## ??? Status
-
-?? Early development.  
-? Structure in place.  
-?? Meaning under construction.
-
----
-
-## ?? License
-
-**MIT** - because the code should be free,  
-but never reckless.
-
+All files follow RIFTLang governance principles and zero-trust architecture.
